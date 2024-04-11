@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text], input[type=number], select, textarea, input[type=email], input[type=tel] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto; /* Center the button */
+}
+
+input[type=submit] {
+    background-color: green;
+    color: white;
+}
+
+input[type=submit].orange {
+    background-color: orange;
+    color: black;
+}
+
+.container {
+    width: 400px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dob-inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dob-inputs input {
+    width: 30%;
+}
+
+fieldset {
+    border-radius: 4px;
+    margin: 20px 0;
+    border-color: rgba(128, 128, 128, 0.484);
+}
+
+legend {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
